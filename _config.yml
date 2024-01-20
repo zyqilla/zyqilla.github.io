@@ -1,0 +1,26 @@
+title: zyq://a
+author: zyqilla
+email: zyqilla@proton.me
+url: zyqilla.github.io
+baseurl: ""
+description: >
+  zyq://a's blog.
+
+permalink: /:slug.html
+
+favicon: "logo-circle.png"
+
+remote_theme: riggraz/no-style-please
+
+theme_config:
+  appearance: "auto" # can be "light", "dark" or "auto"
+  back_home_text: ".."
+  date_format: "%Y-%m-%d"
+  show_description: false
+
+sass:
+  style: :compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
